@@ -1,0 +1,239 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+}
+
+/* Hero Styles */
+#hero {
+    background-image: linear-gradient(to bottom, #333, #555);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 48px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+/* About Styles */
+#about {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding: 2em;
+}
+
+#about h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#about ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#about li {
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Education Styles */
+#education {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+#education h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#education p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#skills {
+    padding: 2em;
+}
+/* Interests Styles */
+#interests {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+#interests h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#interests p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#interests ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#interests li {
+    margin-bottom: 10px;
+}
+
+/* Projects Styles */
+#projects {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+#projects h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.project-card a {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-card a:hover {
+    background-color: #23527c;
+}
+
+/* Contact Styles */
+#contact {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#contact input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
